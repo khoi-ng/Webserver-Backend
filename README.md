@@ -1,14 +1,20 @@
 # Webserver-Backend (Django Rest API)
 
-The Backend is using a WGAN Model generate random Heightmaps and send them to the Frontend
+The Backend is using a WGAN Keras-Model to generate Heightmaps.
 
-The Frontend can be found [here](https://github.com/ibrahimSchechsaher/Webserver-Frontend).
+A 3D-Frontend for the Backend can be found [here](https://github.com/ibrahimSchechsaher/Webserver-Frontend).
+
 
 ## How to start the Backend-Server
 
 ```bash
 # start the server
 python manage.py runserver
-# server runs locally on Port 8000
+
+# Here you can generate Random Heightmaps visually:
+http://127.0.0.1:8000/generateHeightMap/
+
+# This is the API endpoint, which serves a random Heightmap as 64-base encoded String
+http://127.0.0.1:8000/getHeightMap/
 
 ```
