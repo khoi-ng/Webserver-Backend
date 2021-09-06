@@ -4,6 +4,8 @@ The Backend is using a WGAN Keras-Model to generate Heightmaps.
 
 A 3D-Frontend for the Backend can be found [here](https://github.com/ibrahimSchechsaher/Webserver-Frontend).
 
+The GAN where the model was created can be found [here](https://github.com/Erik3003/terrain_gan)
+
 
 ## How to start the Backend-Server
 
